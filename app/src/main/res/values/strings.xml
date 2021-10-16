@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">React Native Integration</string>
+    <string name="launch_react_native_screen">Launch React Native Screen</string>
 </resources>
