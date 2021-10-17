@@ -6,6 +6,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "live": "adb reverse tcp:8081 tcp:8081; yarn start",
+    "bundle": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output ../app/src/main/assets/index.android.bundle --assets-dest ../app/src/main/res",
     "test": "jest",
     "lint": "eslint ."
   },

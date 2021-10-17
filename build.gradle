@@ -13,6 +13,28 @@ buildscript {
     }
 }
 
+allprojects {
+    repositories {
+        maven {
+            // All of React Native (JS, Android binaries) is installed from npm
+            url "$project.rootDir/reactNative/node_modules/react-native/android"
+        }
+        maven {
+            url("$project.rootDir/reactNative/node_modules/jsc-android/dist")
+        }
+        google()
+        mavenCentral()
+    }
+}
+
+task installReact {
+    exec {
+        workingDir rootProject.rootDir
+        commandLine 'sh', 'installReact.sh'
+        ignoreExitValue true
+    }
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
