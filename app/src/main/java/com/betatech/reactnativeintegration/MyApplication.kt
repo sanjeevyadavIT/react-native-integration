@@ -2,8 +2,8 @@ package com.betatech.reactnativeintegration
 
 import android.app.Application
 import android.content.Context
-import com.betatech.react.ReactModule
-import com.betatech.react.ReactUtils
+import com.betatech.rnSetup.ReactModule
+import com.betatech.rnSetup.ReactUtils
 import com.facebook.react.ReactApplication
 import com.facebook.react.ReactNativeHost
 import kotlinx.coroutines.CoroutineScope

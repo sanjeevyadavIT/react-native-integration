@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.commit
-import com.betatech.react.MyReactFragment
+import com.betatech.rnSetup.MyReactFragment
 import com.facebook.react.modules.core.DefaultHardwareBackBtnHandler
 
 class MyReactActivity : AppCompatActivity(), DefaultHardwareBackBtnHandler {

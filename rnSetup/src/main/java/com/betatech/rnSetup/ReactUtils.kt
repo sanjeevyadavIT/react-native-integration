@@ -1,4 +1,4 @@
-package com.betatech.react
+package com.betatech.rnSetup
 
 import android.content.Context
 import android.util.Log

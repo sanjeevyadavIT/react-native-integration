@@ -8,4 +8,4 @@
 //}
 rootProject.name = "React Native Integration"
 include ':app'
-include ':react'
+include ':rnSetup'

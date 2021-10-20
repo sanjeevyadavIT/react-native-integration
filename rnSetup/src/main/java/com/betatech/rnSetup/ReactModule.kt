@@ -1,4 +1,4 @@
-package com.betatech.react
+package com.betatech.rnSetup
 
 import android.app.Application
 import com.facebook.react.BuildConfig
